@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>65001</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>donneesouvertes-interventions-sim.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="incident_nbr" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+            <Field name="creation_date_time" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+            <Field name="incident_type_desc" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+            <Field name="description_groupe" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+            <Field name="caserne" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+            <Field name="nom_ville" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+            <Field name="nom_arrond" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+            <Field name="division" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+            <Field name="latitude" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+            <Field name="longitude" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+            <Field name="nombre_unites" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sidn\AppData\Local\Temp\Engine_22244_42f9b126726e4c919f6494937aaa7a37_\Engine_22056_64b947a789104d6890bb2fbd1b67f35f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>65001</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>donneesouvertes-interventions-sim-2005-2014.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="INCIDENT_NBR" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+            <Field name="CREATION_DATE_TIME" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+            <Field name="INCIDENT_TYPE_DESC" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+            <Field name="DESCRIPTION_GROUPE" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+            <Field name="CASERNE" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+            <Field name="NOM_VILLE" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+            <Field name="NOM_ARROND" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+            <Field name="DIVISION" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+            <Field name="NOMBRE_UNITES" size="254" source="File: C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\donneesouvertes-interventions-sim-2005-2014.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="186" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="INCIDENT_NBR" selected="True" />
+            <SelectField field="CREATION_DATE_TIME" selected="True" type="DateTime" size="19" />
+            <SelectField field="INCIDENT_TYPE_DESC" selected="True" />
+            <SelectField field="DESCRIPTION_GROUPE" selected="True" />
+            <SelectField field="CASERNE" selected="True" type="Int16" size="2" />
+            <SelectField field="NOM_VILLE" selected="True" />
+            <SelectField field="NOM_ARROND" selected="True" />
+            <SelectField field="DIVISION" selected="True" type="Int16" size="2" />
+            <SelectField field="LATITUDE" selected="True" type="Float" size="4" />
+            <SelectField field="LONGITUDE" selected="True" type="Float" size="4" />
+            <SelectField field="NOMBRE_UNITES" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings>
+        <Position x="438" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"INCIDENT_TYPE_DESC","DESCRIPTION_GROUPE","NOM_VILLE","NOM_ARROND"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sidn\AppData\Local\Temp\Engine_22244_42f9b126726e4c919f6494937aaa7a37_\Engine_22056_5ec24f11d56845a5b640ea4439084a8e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="570" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>ToDate([CREATION_DATE_TIME]) &gt;= "2010-01-01"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>CREATION_DATE_TIME</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-03-13 16:28:49</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2010-01-01</Operand>
+              <StartDate>2019-03-13 16:28:49</StartDate>
+              <EndDate>2019-03-13 16:28:49</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ToDate([CREATION_DATE_TIME]) &gt;= "2010-01-01"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="714" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\sidn\OneDrive - Dell Technologies\Data science Capstone project\Data\SIM_2010_2018.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SIM_2010_2018.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="702" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="834" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sidn\AppData\Local\Temp\Engine_22244_42f9b126726e4c919f6494937aaa7a37_\Engine_22056_d66694a9f46a42be8917d0c690b24921_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output26" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output26" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>SIM_data_preparation</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
