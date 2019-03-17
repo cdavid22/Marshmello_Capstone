@@ -1,2 +1,2 @@
 # Marshmello_Capstone
-DataScien capstone project
+DataSciene capstone project
